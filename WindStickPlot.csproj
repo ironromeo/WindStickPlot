@@ -69,6 +69,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="demo_data\wind_source_data.xlsx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,6 +82,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="demo_results\wind_01-12-2011_01-12-2011_N0_x1.bmp" />
+    <Content Include="demo_results\wind_01-12-2011_01-12-2011_N0_x10.bmp" />
+    <Content Include="demo_results\wind_01-12-2011_15-12-2011_N0_x10.bmp" />
+    <Content Include="demo_results\wind_01-12-2011_31-12-2011_N0_x10.bmp" />
+    <Content Include="demo_results\wind_source_data_01-12-2011_15-04-2012_N0_x10.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
